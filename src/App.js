@@ -1,12 +1,20 @@
 import './App.css';
 import { Button } from 'antd';
-
-import FloatingActionButton from './FloatingActionButton';
+import ChatBot from 'react-simple-chatbot';
 function App() {
   return (
     <div className="App">
       <Button type="primary"></Button>
-      <FloatingActionButton />
+      <ChatBot
+        floating={true}
+        steps={[
+          {
+            id: 'hello-world',
+            message: 'Hello World!',
+            end: true
+          }
+        ]}
+      />
     </div>
   );
 }
