@@ -1,3 +1,103 @@
+/* jsdevlivr CDN 추가 */
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-extralight.woff2')
+    format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-extralightitalic.woff2')
+    format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-light.woff2')
+    format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-lightitalic.woff2')
+    format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-regular.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-italic.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-semibold.woff2')
+    format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-semibolditalic.woff2')
+    format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-bold.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono K';
+  src: url('https://cdn.jsdelivr.net/gh/gyunseo/woff2-sarasa-mono-k@main/sarasa-mono-k-bolditalic.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Sarasa Mono K', monospace;
+}
+
+.side-menu-logo {
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
 .App {
   text-align: center;
 }
