@@ -1,7 +1,8 @@
 import './App.css';
+import AppLayout from './layout/AppLayout';
 
 function App() {
-  return <div className="App">{/* 여기에 코드 작성 */}</div>;
+  return <AppLayout></AppLayout>;
 }
 
 export default App;

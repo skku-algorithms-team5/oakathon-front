@@ -1,0 +1,19 @@
+SideMenu.css .custom-menu .ant-menu-item {
+  height: 60px; /* 필요한 높이로 조절하세요 */
+  line-height: 20px; /* 필요에 따라 조절하세요 */
+}
+
+.custom-menu .ant-menu-item {
+  display: block;
+  height: 70px; /* 필요한 높이로 조절하세요 */
+}
+
+.side-menu-logo {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin: 16px;
+  font-size: 1.5rem;
+  color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+}
