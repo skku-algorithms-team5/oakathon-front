@@ -1,7 +1,12 @@
 import './App.css';
+import { Button } from 'antd';
 
 function App() {
-  return <div className="App">{/* 여기에 코드 작성 */}</div>;
+  return (
+    <div className="App">
+      <Button type="primary"></Button>
+    </div>
+  );
 }
 
 export default App;
