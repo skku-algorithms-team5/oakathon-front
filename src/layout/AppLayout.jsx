@@ -35,7 +35,10 @@ const AppLayout = () => {
               fontWeight: 'bold',
             }}
           >
-            문제해결과 알고리즘
+            Algorithm{' '}
+            <span style={{ fontSize: 30, color: 'gray' }}>
+              - Instructor (Professor Oak)
+            </span>
           </div>
         </Header>
         {/* Content */}
