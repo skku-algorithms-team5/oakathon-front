@@ -1,15 +1,9 @@
 import React from 'react';
-import {
-  Container,
-  Button,
-  Link,
-  lightColors,
-  darkColors,
-} from 'react-floating-action-button';
+import { Container, Button, lightColors } from 'react-floating-action-button';
 
 const FloatingActionButton = () => {
   return (
-    <Container>
+    <Container styles={{ bottom: '0vh', right: '0vw' }}>
       <Button
         tooltip="Personal TA"
         icon="fas fa-robot"
