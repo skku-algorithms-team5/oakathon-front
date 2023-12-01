@@ -70,7 +70,7 @@ const QuizPage = () => {
               <div className="content" />
             </Spin>
           </div>
-          <div style={{ marginBottom: 50 }}>정답을 분석하는 중...</div>
+          <div style={{ marginBottom: 50 }}>답변을 분석하는 중...</div>
         </div>
       </div>
     </Modal>
