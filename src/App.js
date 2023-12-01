@@ -1,7 +1,13 @@
 import './App.css';
-
+import FloatingActionButton from './FloatingActionButton';
+import React from 'react';
 function App() {
-  return <div className="App">{/* 여기에 코드 작성 */}</div>;
+  return (
+    <div className="App">
+      <h1>Hello, world!</h1>
+      <FloatingActionButton />
+    </div>
+  );
 }
 
 export default App;
