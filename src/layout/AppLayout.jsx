@@ -1,3 +1,5 @@
+import { Routes, Route } from 'react-router-dom';
+
 import { Layout, theme } from 'antd';
 
 import SideMenu from './SideMenu';
@@ -50,8 +52,10 @@ const AppLayout = () => {
               minHeight: '100%',
             }}
           >
-            <VideoPage></VideoPage>
-            {/* <QuizPage></QuizPage> */}
+            <Routes>
+              <Route path="/" element={<VideoPage />} />
+              <Route path="/quiz" element={<QuizPage />} />
+            </Routes>
           </div>
         </Content>
         {/* Footer */}
