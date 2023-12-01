@@ -35,13 +35,13 @@ const QuizPage = () => {
     console.log('question: ', question);
     console.log('answer: ', answer);
     axios
-      .post('http://127.0.0.1:8000/analyze/', {
+      .post('http://127.0.0.1:8000/analyze_result', {
         question: question,
         answer: answer,
       })
       .then((res) => {
         console.log(res.data);
-        setAnswer(res.data.analyze);
+        setAnswer(res.data.analyze_result);
         setIsModalOpen(false);
         setIsFinishAnalysis(true);
       })
