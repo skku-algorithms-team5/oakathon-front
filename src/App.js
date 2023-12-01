@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
+import './App.css';
 
 function App() {
-  return <div className="App"></div>;
+  return <div className="App">{/* 여기에 코드 작성 */}</div>;
 }
 
 export default App;
